@@ -72,7 +72,7 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "golang-vercel.vercel.app",
+	Host:             "golang-vercel-pearl.vercel.app",
 	BasePath:         "",
 	Schemes:          []string{"https", "http"},
 	Title:            "Golang Vercel Deployment",

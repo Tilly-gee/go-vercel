@@ -20,10 +20,10 @@ var (
 // @version 1.0
 
 // @schemes https http
-// @host golang-vercel.vercel.app
+// @host golang-vercel-pearl.vercel.app
 func init() {
 	app = gin.New()
-	app.GET("/doc/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+	app.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	app.GET("/ping", Ping)
 	app.GET("/hello/:name", Hello)
 }

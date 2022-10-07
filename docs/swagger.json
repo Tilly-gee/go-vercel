@@ -10,7 +10,7 @@
         "contact": {},
         "version": "1.0"
     },
-    "host": "golang-vercel.vercel.app",
+    "host": "golang-vercel-pearl.vercel.app",
     "paths": {
         "/hello/:name": {
             "get": {
