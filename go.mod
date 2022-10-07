@@ -1,4 +1,4 @@
-module golang-vercel
+module github.com/Tilly-gee/go-vercel
 
 go 1.18
 
